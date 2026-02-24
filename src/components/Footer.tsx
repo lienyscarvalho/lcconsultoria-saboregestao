@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <h3 className="font-display text-2xl font-bold mb-4">Sabor & Gestão</h3>
+            <h3 className="font-display text-2xl font-bold mb-4">Sabor & Gestão - LC Consultoria e Crítica Gastronômica</h3>
             <p className="text-primary-foreground/80 text-sm leading-relaxed mb-6">
               Consultoria especializada em restaurantes. A arte de transformar sabor em resultados.
             </p>
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-10 pt-6 text-center text-xs text-primary-foreground/60">
-          © {new Date().getFullYear()} Sabor & Gestão Consultoria. Todos os direitos reservados.
+          © {new Date().getFullYear()} Sabor & Gestão - LC Consultoria e Crítica Gastronômica. Todos os direitos reservados.
         </div>
       </div>
     </footer>
