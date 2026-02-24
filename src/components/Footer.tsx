@@ -52,11 +52,11 @@ const Footer = () => {
           <div>
             <h4 className="font-display text-lg font-semibold mb-4">Serviços</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li>Gestão Financeira</li>
-              <li>Estratégias de Menu</li>
-              <li>Treinamento de Equipe</li>
-              <li>Marketing Gastronômico</li>
-              <li>Operações e Logística</li>
+              <li><Link to="/gestao-financeira" className="hover:text-warm-gold transition-colors">Gestão Financeira</Link></li>
+              <li><Link to="/estrategias-menu" className="hover:text-warm-gold transition-colors">Estratégias de Menu</Link></li>
+              <li><Link to="/treinamento-equipes" className="hover:text-warm-gold transition-colors">Treinamento de Equipe</Link></li>
+              <li><Link to="/marketing-gastronomico" className="hover:text-warm-gold transition-colors">Marketing Gastronômico</Link></li>
+              <li><Link to="/operacoes-logistica" className="hover:text-warm-gold transition-colors">Operações e Logística</Link></li>
             </ul>
           </div>
 
