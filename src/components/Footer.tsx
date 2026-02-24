@@ -66,15 +66,17 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-primary-foreground/80">
               <li className="flex items-center gap-2">
                 <Mail size={16} />
-                contato@saborgestao.com.br
+                contato@lcconsultoriagastronomica.blog
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} />
-                (11) 99999-9999
+                <a href="https://wa.me/5521984821444" target="_blank" rel="noopener noreferrer" className="hover:text-warm-gold transition-colors">
+                  (21) 98482-1444
+                </a>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin size={16} className="mt-0.5 shrink-0" />
-                São Paulo, SP - Brasil
+                Rio de Janeiro, RJ - Brasil
               </li>
             </ul>
           </div>
