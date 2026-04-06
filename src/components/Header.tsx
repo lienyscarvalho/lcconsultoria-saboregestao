@@ -17,7 +17,8 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 sm:h-20 px-4 sm:px-6 lg:px-8">
-        <Link to="/" className="font-display text-xl sm:text-2xl font-bold text-primary tracking-tight">
+        <Link to="/" className="flex items-center gap-2 font-display text-xl sm:text-2xl font-bold text-primary tracking-tight">
+          <img src="/logo.png" alt="Sabor & Gestão Logo" width={40} height={40} className="h-10 w-10 object-contain" />
           Sabor & Gestão - LC Consultoria
         </Link>
 
